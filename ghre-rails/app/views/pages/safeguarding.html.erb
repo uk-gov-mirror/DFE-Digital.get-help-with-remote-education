@@ -10,6 +10,29 @@
   <div class="govuk-grid-column-two-thirds">
     <% safeguarding_update_date = t('safeguarding.last_update_date').to_date %>
     <%= render layout: 'summary', locals: { update_date: safeguarding_update_date, show_updates: @show_updates, page: 'safeguarding', has_content: false } do %>
+      <p class="govuk-body-s">
+        The <a class="govuk-link govuk-link--no-visited-state" href="#remote-education-expectations">Remote education expectations</a> guidance includes an 
+        update on publishing information on school websites for pupils, parents and carers about remote education provision
+      </p>
+      <p class="govuk-body-s">
+        The <a class="govuk-link govuk-link--no-visited-state" href="#guidance-for-full-opening">Guidance for full opening</a> includes the following changes:
+        <ul class="govuk-list govuk-list--bullet">  
+          <li>changes to the isolation period (from 14 days to 10 days from the day after the individual tested positive)</li>
+          <li>clinically extremely vulnerable pupils</li>
+          <li>inspections</li>
+          <li>primary assessments</li>
+          <li>examinations</li>
+          <li>schools accountability</li>
+          <li>remote education minimum expectations</li>
+          <li>
+            an added link to the 
+            <a class="govuk-link" href="https://www.gov.uk/government/publications/coronavirus-covid-19-contingency-framework-for-education-and-childcare-settings">
+              contingency framework for education and childcare settings
+            </a>
+            which sets out how restrictions would work in the rare circumstances they are needed
+          </li>
+        </ul>
+      </p>
     <% end %>
     <p class="govuk-body">
       Keeping children safe online is essential. The statutory guidance
