@@ -27,6 +27,7 @@
   border-left: 5px solid $govuk-border-colour;
   padding: 15px 0 15px 15px;
   margin-bottom: 20px;
+  background: $govuk-updated-content-active-background;
 
   &.hidden {
     display: none;
